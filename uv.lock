@@ -1,0 +1,31 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "ads100-introduction-to-computational-thinking-and-programming",
+    "lab-report-2",
+    "lab-report-3",
+    "lab-report-4",
+]
+
+[[package]]
+name = "ads100-introduction-to-computational-thinking-and-programming"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "lab-report-2"
+version = "0.1.0"
+source = { virtual = "lab_report_2" }
+
+[[package]]
+name = "lab-report-3"
+version = "0.1.0"
+source = { virtual = "lab_report_3" }
+
+[[package]]
+name = "lab-report-4"
+version = "0.1.0"
+source = { virtual = "lab_report_4" }

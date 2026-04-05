@@ -1,0 +1,13 @@
+[project]
+name = "ads100-introduction-to-computational-thinking-and-programming"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "lab_report_2",
+    "lab_report_3",
+    "lab_report_4",
+]
